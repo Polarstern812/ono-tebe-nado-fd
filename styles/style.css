@@ -391,7 +391,6 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  display: block;
   width: 240px;
   height: 240px;
   background-color: black;
@@ -403,6 +402,9 @@
   width: 148px;
   height: 114px;
   display: block;
+
+  position: relative;
+  bottom: -62px;
 }
 
 .footer {
