@@ -391,12 +391,11 @@
   display: flex;
   justify-content: center;
   align-content: center;
-
+  display: block;
   width: 240px;
   height: 240px;
   background-color: black;
   background-size: cover;
-  display: block;
   border-radius: 50%;
 }
 
@@ -447,6 +446,9 @@
   line-height: 100%;
   letter-spacing: normal;
   text-align: center;
+
+  padding-top: 5.5px;
+  text-underline-offset: 4px;
 }
 
 .footer__links-list-item {
@@ -461,40 +463,6 @@
 }
 
 /* общие стили ссылок */
-.footer__menu-link {
-  display: block;
-}
-
-/* блок меню с ссылками размещаем по центру*/
-.footer__menu {
-  width: 163.9px;
-  height: 64px;
-}
-
-.footer__links-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-
-  line-height: 100%;
-  letter-spacing: normal;
-  text-align: center;
-
-  padding-top: 5.5px;
-  text-underline-offset: 4px;
-}
-
-.footer__links-list-item {
-  list-style-type: circle;
-  text-align: center;
-  list-style: none;
-}
-
-.footer__links-list-item_active {
-  text-align: center;
-}
-
 .footer__menu-link {
   display: block;
 }
