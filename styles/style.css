@@ -163,7 +163,6 @@
 
   font-size: 22px;
 
-
   z-index: 1;
   padding-top: 0px;
   padding-left: 50px;
@@ -236,7 +235,6 @@
   
   color: #ffffff;
 
-  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -435,7 +433,6 @@
   width: 163.9px;
   /*height: 64px; фиксированная высота убрана*/
   line-height: normal;
-  
 }
 
 .footer__links-list {
@@ -486,7 +483,6 @@
 
 .footer__social-link {
   display: block;
-    /*align-items: end;*/
 }
 
 .footer__social-icon {
